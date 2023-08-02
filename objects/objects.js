@@ -1,13 +1,15 @@
-// var student = {
-//     id:110,
-//     name:"Faisal Osman",
-//     class:9,
-//     marks:98
-// }
-// console.log(student)
-// console.log(student.name)
-// student.name="Ani"
-// console.log(student["name"])
+var student = {
+    id:110,
+    name:"Faisal Osman",
+    class:9,
+    marks:98
+}
+console.log(student)
+console.log(student.name)
+student.name="Ani"
+console.log(student["name"])
+console.log("Trying different")
+
 // console.log(student)
 var shoppingCart={
     book:10,
@@ -40,3 +42,5 @@ console.log(shoppingCart)
 propertyName='mouse'
 shoppingCart[propertyName]=5
 console.log(shoppingCart)
+
+console.log("Checking")
